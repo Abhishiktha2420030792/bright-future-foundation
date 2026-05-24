@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bright Future Foundation | Empowering Communities</title>
+  <meta name="description" content="Bright Future Foundation — dedicated to education, health, and sustainable development for underserved communities worldwide." />
+
+  <!-- Google Fonts: Playfair Display + DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <!-- Logo -->
+      <a href="#home" class="nav-logo">
+        <img src="images/logo.jpeg" alt="InAmigos Foundation Logo" class="logo-img">
+        <span class="logo-text">Bright Future <em>Foundation</em></span>
+    </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#programs" class="nav-link">Programs</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#volunteer" class="nav-link">Volunteer</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#donate" class="nav-link btn-donate">Donate Now</a></li>
+      </ul>
+
+      <!-- Right Controls: Dark Mode + Hamburger -->
+      <div class="nav-controls">
+        <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon" id="darkModeIcon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-tag animate-fade-up">Making a Difference Since 2005</span>
+      <h1 class="hero-title animate-fade-up delay-1">
+        Building a <em>Brighter</em><br />Future, Together
+      </h1>
+      <p class="hero-desc animate-fade-up delay-2">
+        We empower underserved communities through education, healthcare, and sustainable development programs that create lasting change across the globe.
+      </p>
+      <div class="hero-buttons animate-fade-up delay-3">
+        <a href="#programs" class="btn btn-primary">Our Programs</a>
+        <a href="#volunteer" class="btn btn-outline">Join Us Today</a>
+      </div>
+      <!-- Hero stats bar -->
+      <div class="hero-stats animate-fade-up delay-4">
+        <div class="hstat"><strong>120K+</strong><span>Lives Changed</span></div>
+        <div class="hstat-divider"></div>
+        <div class="hstat"><strong>48</strong><span>Countries</span></div>
+        <div class="hstat-divider"></div>
+        <div class="hstat"><strong>320+</strong><span>Volunteers</span></div>
+      </div>
+    </div>
+    <!-- Scroll indicator -->
+    <a href="#about" class="hero-scroll" aria-label="Scroll down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Image Column -->
+        <div class="about-images reveal">
+          <img
+            src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&q=80"
+            alt="Children in a classroom"
+            class="about-img-main"
+          />
+          <img
+            src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=300&q=80"
+            alt="Community volunteers"
+            class="about-img-sub"
+          />
+          <div class="about-badge">
+            <span class="badge-number">19+</span>
+            <span class="badge-text">Years of<br />Impact</span>
+          </div>
+        </div>
+
+        <!-- Text Column -->
+        <div class="about-text reveal delay-1">
+          <span class="section-tag">Who We Are</span>
+          <h2 class="section-title">A Compassionate Force for <em>Global Change</em></h2>
+          <p>
+            Bright Future Foundation was founded on a simple belief: every child, regardless of background, deserves access to quality education and healthcare. Since 2005, we have grown from a small local initiative into a globally recognized non-profit.
+          </p>
+          <p>
+            We partner with governments, corporations, and grassroots organizations to design programs that are not only impactful today but sustainable for generations to come.
+          </p>
+          <ul class="about-list">
+            <li><i class="fas fa-check-circle"></i> Transparent and accountable governance</li>
+            <li><i class="fas fa-check-circle"></i> Community-led program design</li>
+            <li><i class="fas fa-check-circle"></i> Evidence-based interventions</li>
+            <li><i class="fas fa-check-circle"></i> Committed to gender equality & inclusion</li>
+          </ul>
+          <a href="#programs" class="btn btn-primary">Explore Our Work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== MISSION & VISION SECTION ========== -->
+  <section class="mission section" id="mission">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Purpose</span>
+        <h2 class="section-title">Mission &amp; Vision</h2>
+        <p class="section-subtitle">Guided by values that put people first</p>
+      </div>
+      <div class="mv-grid">
+        <div class="mv-card reveal">
+          <div class="mv-icon"><i class="fas fa-bullseye"></i></div>
+          <h3>Our Mission</h3>
+          <p>To uplift marginalized communities by delivering scalable, inclusive programs in education, nutrition, healthcare, and economic empowerment — creating ripples of opportunity that last generations.</p>
+        </div>
+        <div class="mv-card reveal delay-1">
+          <div class="mv-icon"><i class="fas fa-eye"></i></div>
+          <h3>Our Vision</h3>
+          <p>A world where every individual has equitable access to the tools and resources needed to live a dignified, healthy, and productive life — free from poverty and systemic barriers.</p>
+        </div>
+        <div class="mv-card reveal delay-2">
+          <div class="mv-icon"><i class="fas fa-heart"></i></div>
+          <h3>Our Values</h3>
+          <p>Integrity, compassion, collaboration, and innovation drive every decision we make. We believe in respecting local cultures while striving for universal human rights and dignity.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROGRAMS / SERVICES ========== -->
+  <section class="programs section" id="programs">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What We Do</span>
+        <h2 class="section-title">Our Core Programs</h2>
+        <p class="section-subtitle">Six pillars of transformative community development</p>
+      </div>
+      <div class="programs-grid">
+
+        <div class="program-card reveal">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&q=80" alt="Education program" />
+            <div class="card-overlay"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <div class="card-body">
+            <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Education for All</h3>
+            <p>Building schools, training teachers, and providing scholarships to ensure no child is left without quality learning.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="program-card reveal delay-1">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&q=80" alt="Healthcare program" />
+            <div class="card-overlay"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <div class="card-body">
+            <div class="card-icon"><i class="fas fa-stethoscope"></i></div>
+            <h3>Healthcare Access</h3>
+            <p>Mobile clinics, vaccination drives, and maternal health programs reaching the most remote communities.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="program-card reveal delay-2">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&q=80" alt="Sustainability program" />
+            <div class="card-overlay"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <div class="card-body">
+            <div class="card-icon"><i class="fas fa-leaf"></i></div>
+            <h3>Green Earth Initiative</h3>
+            <p>Reforestation, clean water projects, and solar energy installations for a sustainable tomorrow.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="program-card reveal">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&q=80" alt="Economic empowerment" />
+            <div class="card-overlay"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <div class="card-body">
+            <div class="card-icon"><i class="fas fa-hand-holding-usd"></i></div>
+            <h3>Economic Empowerment</h3>
+            <p>Microfinance, skills training, and entrepreneurship programs that help families break the poverty cycle.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="program-card reveal delay-1">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1593113646773-028c64a8f1b8?w=400&q=80" alt="Child welfare" />
+            <div class="card-overlay"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <div class="card-body">
+            <div class="card-icon"><i class="fas fa-child"></i></div>
+            <h3>Child Welfare</h3>
+            <p>Safe spaces, nutritional support, and psychosocial programs for children in crisis and conflict zones.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <div class="program-card reveal delay-2">
+          <div class="card-img">
+            <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80" alt="Women empowerment" />
+            <div class="card-overlay"><i class="fas fa-arrow-right"></i></div>
+          </div>
+          <div class="card-body">
+            <div class="card-icon"><i class="fas fa-venus"></i></div>
+            <h3>Women Empowerment</h3>
+            <p>Leadership development, legal aid, and safe housing initiatives supporting women and girls globally.</p>
+            <a href="#" class="card-link">Learn More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATISTICS COUNTER ========== -->
+  <section class="stats section" id="stats">
+    <div class="stats-bg"></div>
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <i class="fas fa-users"></i>
+          <span class="counter" data-target="120000">0</span><span class="stat-suffix">+</span>
+          <p>Lives Impacted</p>
+        </div>
+        <div class="stat-item reveal delay-1">
+          <i class="fas fa-globe-americas"></i>
+          <span class="counter" data-target="48">0</span>
+          <p>Countries Reached</p>
+        </div>
+        <div class="stat-item reveal delay-2">
+          <i class="fas fa-hands-helping"></i>
+          <span class="counter" data-target="320">0</span><span class="stat-suffix">+</span>
+          <p>Dedicated Volunteers</p>
+        </div>
+        <div class="stat-item reveal delay-3">
+          <i class="fas fa-project-diagram"></i>
+          <span class="counter" data-target="85">0</span>
+          <p>Active Projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Our Impact</span>
+        <h2 class="section-title">Moments That Matter</h2>
+        <p class="section-subtitle">A glimpse into the lives we touch</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall reveal"><img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=500&q=80" alt="Community gathering" /></div>
+        <div class="gallery-item reveal delay-1"><img src="https://images.unsplash.com/photo-1542810634-71277d95dcbb?w=400&q=80" alt="Children learning" /></div>
+        <div class="gallery-item reveal delay-2"><img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?w=400&q=80" alt="Medical camp" /></div>
+        <div class="gallery-item wide reveal delay-1"><img src="https://images.unsplash.com/photo-1526976668912-1a811878dd37?w=700&q=80" alt="Tree planting" /></div>
+        <div class="gallery-item reveal delay-2"><img src="https://images.unsplash.com/photo-1491438590914-bc09fcaaf77a?w=400&q=80" alt="Volunteers together" /></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TESTIMONIALS ========== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Voices of Change</span>
+        <h2 class="section-title">What People Say</h2>
+      </div>
+      <div class="testimonial-track" id="testimonialTrack">
+
+        <div class="testimonial-card">
+          <div class="tcard-quote"><i class="fas fa-quote-left"></i></div>
+          <p>"The education program changed my daughter's life. She now dreams of becoming a doctor — something unimaginable before Bright Future Foundation arrived in our village."</p>
+          <div class="tcard-author">
+            <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=80&q=80" alt="Amara Diallo" />
+            <div>
+              <strong>Amara Diallo</strong>
+              <span>Parent, Senegal</span>
+            </div>
+          </div>
+          <div class="tcard-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="tcard-quote"><i class="fas fa-quote-left"></i></div>
+          <p>"Volunteering with BFF for three years has been the most meaningful experience of my life. The team is incredibly professional and the impact is real and measurable."</p>
+          <div class="tcard-author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&q=80" alt="James Harrington" />
+            <div>
+              <strong>James Harrington</strong>
+              <span>Volunteer, UK</span>
+            </div>
+          </div>
+          <div class="tcard-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="tcard-quote"><i class="fas fa-quote-left"></i></div>
+          <p>"Thanks to the microfinance program, I started my tailoring business. Today I employ five women from my community. I am forever grateful to Bright Future Foundation."</p>
+          <div class="tcard-author">
+            <img src="https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?w=80&q=80" alt="Priya Sharma" />
+            <div>
+              <strong>Priya Sharma</strong>
+              <span>Entrepreneur, India</span>
+            </div>
+          </div>
+          <div class="tcard-stars">★★★★★</div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="tcard-quote"><i class="fas fa-quote-left"></i></div>
+          <p>"As a corporate partner, we've seen firsthand how efficiently Bright Future Foundation deploys resources. Our CSR investment truly multiplies under their stewardship."</p>
+          <div class="tcard-author">
+            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&q=80" alt="Marcus Klein" />
+            <div>
+              <strong>Marcus Klein</strong>
+              <span>CEO, GreenCorp Ltd.</span>
+            </div>
+          </div>
+          <div class="tcard-stars">★★★★★</div>
+        </div>
+
+      </div>
+      <!-- Testimonial Controls -->
+      <div class="testimonial-controls">
+        <button class="tctrl-btn" id="tPrev" aria-label="Previous"><i class="fas fa-arrow-left"></i></button>
+        <div class="tctrl-dots" id="tDots"></div>
+        <button class="tctrl-btn" id="tNext" aria-label="Next"><i class="fas fa-arrow-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== VOLUNTEER REGISTRATION FORM ========== -->
+  <section class="volunteer section" id="volunteer">
+    <div class="container">
+      <div class="volunteer-grid">
+        <div class="volunteer-info reveal">
+          <span class="section-tag">Get Involved</span>
+          <h2 class="section-title">Become a <em>Volunteer</em></h2>
+          <p>Your skills, time, and passion can transform lives. Whether you're a doctor, teacher, engineer, or simply a caring human being — there is a place for you in our family.</p>
+          <ul class="volunteer-perks">
+            <li><i class="fas fa-star"></i> Flexible remote &amp; on-ground opportunities</li>
+            <li><i class="fas fa-star"></i> Professional training &amp; certification</li>
+            <li><i class="fas fa-star"></i> Global networking with change-makers</li>
+            <li><i class="fas fa-star"></i> Official letters of recommendation</li>
+          </ul>
+        </div>
+        <div class="volunteer-form-wrap reveal delay-1">
+          <form class="volunteer-form" id="volunteerForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="vFirstName">First Name *</label>
+                <input type="text" id="vFirstName" name="firstName" placeholder="Jane" />
+                <span class="form-error" id="err-firstName"></span>
+              </div>
+              <div class="form-group">
+                <label for="vLastName">Last Name *</label>
+                <input type="text" id="vLastName" name="lastName" placeholder="Doe" />
+                <span class="form-error" id="err-lastName"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="vEmail">Email Address *</label>
+              <input type="email" id="vEmail" name="email" placeholder="jane@example.com" />
+              <span class="form-error" id="err-email"></span>
+            </div>
+            <div class="form-group">
+              <label for="vPhone">Phone Number</label>
+              <input type="tel" id="vPhone" name="phone" placeholder="+1 234 567 890" />
+            </div>
+            <div class="form-group">
+              <label for="vSkill">Primary Skill / Expertise *</label>
+              <select id="vSkill" name="skill">
+                <option value="">-- Select a skill --</option>
+                <option>Education / Teaching</option>
+                <option>Healthcare / Medicine</option>
+                <option>Engineering / Construction</option>
+                <option>Technology / IT</option>
+                <option>Communications / Media</option>
+                <option>Finance / Fundraising</option>
+                <option>Other</option>
+              </select>
+              <span class="form-error" id="err-skill"></span>
+            </div>
+            <div class="form-group">
+              <label for="vAvailability">Availability *</label>
+              <select id="vAvailability" name="availability">
+                <option value="">-- Select availability --</option>
+                <option>Part-time (weekends)</option>
+                <option>Part-time (evenings)</option>
+                <option>Full-time (remote)</option>
+                <option>Full-time (on-ground)</option>
+              </select>
+              <span class="form-error" id="err-availability"></span>
+            </div>
+            <div class="form-group">
+              <label for="vMessage">Why do you want to volunteer? *</label>
+              <textarea id="vMessage" name="message" rows="4" placeholder="Tell us about your motivation..."></textarea>
+              <span class="form-error" id="err-message"></span>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="vAgree" name="agree" />
+              <label for="vAgree">I agree to the <a href="#">Terms &amp; Privacy Policy</a> *</label>
+              <span class="form-error" id="err-agree"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Submit Application
+            </button>
+            <div class="form-success" id="vFormSuccess">
+              <i class="fas fa-check-circle"></i> Thank you! We'll be in touch soon.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DONATION CTA ========== -->
+  <section class="donate section" id="donate">
+    <div class="donate-overlay"></div>
+    <div class="container">
+      <div class="donate-content reveal">
+        <span class="section-tag light">Make a Difference</span>
+        <h2 class="section-title light">Your Donation Changes <em>Everything</em></h2>
+        <p>Even a small contribution goes a long way. Choose an amount and help us continue our life-changing work around the world.</p>
+        <div class="donate-amounts">
+          <button class="amount-btn active" data-amount="25">$25</button>
+          <button class="amount-btn" data-amount="50">$50</button>
+          <button class="amount-btn" data-amount="100">$100</button>
+          <button class="amount-btn" data-amount="250">$250</button>
+          <input type="number" class="amount-custom" id="customAmount" placeholder="Custom $" min="1" />
+        </div>
+        <div class="donate-impact" id="donateImpact">
+          $25 provides school supplies for one child for an entire year.
+        </div>
+        <a href="#" class="btn btn-gold" id="donateBtn">
+          <i class="fas fa-heart"></i> Donate Now
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FAQ ACCORDION ========== -->
+  <section class="faq section" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Questions?</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list">
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            How is my donation used? <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>At least 85% of every donation goes directly to our programs. The remaining 15% covers essential operational costs like staff salaries, logistics, and administration. We publish an annual financial report for full transparency.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal delay-1">
+          <button class="faq-question">
+            Can I volunteer remotely? <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely! We have many remote opportunities in areas like content creation, digital marketing, graphic design, grant writing, data analysis, and online tutoring. Fill out the volunteer form and select your preferred remote role.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal delay-2">
+          <button class="faq-question">
+            Is Bright Future Foundation a registered charity? <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes. We are a 501(c)(3) registered non-profit organization in the United States, as well as registered in 12 other countries. All donations are tax-deductible where applicable. Our registration number is EIN: 12-3456789.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-question">
+            How can my company partner with you? <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We welcome corporate partnerships through CSR initiatives, employee volunteering programs, cause marketing campaigns, and direct sponsorship of our projects. Please reach out via our contact form and our partnerships team will respond within 48 hours.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal delay-1">
+          <button class="faq-question">
+            Where do you currently operate? <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>We currently operate in 48 countries across Sub-Saharan Africa, South Asia, Southeast Asia, Latin America, and Eastern Europe. Our headquarters is in New York, USA, with regional offices in Nairobi, Delhi, Manila, Bogotá, and Warsaw.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal delay-2">
+          <button class="faq-question">
+            Can I visit a project site? <i class="fas fa-plus faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Yes, we organise regular impact visits for major donors and partner organizations. These are carefully coordinated to ensure minimal disruption to communities while giving you an authentic view of our work. Contact us to learn more.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Reach Out</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">We'd love to hear from you</p>
+      </div>
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info reveal">
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Our Headquarters</strong>
+              <p>350 Fifth Avenue, Suite 4100<br />New York, NY 10118, USA</p>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <strong>Phone</strong>
+              <p>+1 (800) 555-0199</p>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <strong>Email</strong>
+              <p>hello@brightfuturefoundation.org</p>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <strong>Office Hours</strong>
+              <p>Mon – Fri: 9:00 AM – 6:00 PM EST</p>
+            </div>
+          </div>
+
+          <!-- Google Maps Embed -->
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.175390454813!2d-73.98567368459418!3d40.74844097932813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1615478489550!5m2!1sen!2sus"
+              width="100%"
+              height="220"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Office Location Map"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap reveal delay-1">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="cName">Your Name *</label>
+                <input type="text" id="cName" name="name" placeholder="John Smith" />
+                <span class="form-error" id="cerr-name"></span>
+              </div>
+              <div class="form-group">
+                <label for="cEmail">Email Address *</label>
+                <input type="email" id="cEmail" name="email" placeholder="john@example.com" />
+                <span class="form-error" id="cerr-email"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cSubject">Subject *</label>
+              <input type="text" id="cSubject" name="subject" placeholder="How can we help?" />
+              <span class="form-error" id="cerr-subject"></span>
+            </div>
+            <div class="form-group">
+              <label for="cMessage">Message *</label>
+              <textarea id="cMessage" name="message" rows="5" placeholder="Write your message here..."></textarea>
+              <span class="form-error" id="cerr-message"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-success" id="cFormSuccess">
+              <i class="fas fa-check-circle"></i> Message sent! We'll respond within 24 hours.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+
+          <!-- About Column -->
+          <div class="footer-col footer-brand">
+            <a href="#home" class="nav-logo">
+              <span class="logo-icon"><i class="fas fa-seedling"></i></span>
+              <span class="logo-text">Bright Future <em>Foundation</em></span>
+            </a>
+            <p>Empowering communities through education, health, and sustainable development since 2005.</p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#programs">Our Programs</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#donate">Donate</a></li>
+            </ul>
+          </div>
+
+          <!-- Programs -->
+          <div class="footer-col">
+            <h4>Programs</h4>
+            <ul>
+              <li><a href="#">Education for All</a></li>
+              <li><a href="#">Healthcare Access</a></li>
+              <li><a href="#">Green Earth Initiative</a></li>
+              <li><a href="#">Economic Empowerment</a></li>
+              <li><a href="#">Child Welfare</a></li>
+            </ul>
+          </div>
+
+          <!-- Newsletter -->
+          <div class="footer-col footer-newsletter">
+            <h4>Stay Updated</h4>
+            <p>Subscribe to our newsletter for stories of impact and news from the field.</p>
+            <form class="newsletter-form" id="newsletterForm">
+              <input type="email" placeholder="Your email address" id="nlEmail" required />
+              <button type="submit" aria-label="Subscribe"><i class="fas fa-arrow-right"></i></button>
+            </form>
+            <div class="form-success" id="nlSuccess" style="display:none">
+              <i class="fas fa-check-circle"></i> Subscribed! Thank you.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; <span id="footerYear"></span> Bright Future Foundation. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== SCROLL TO TOP BUTTON ========== -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Main JavaScript -->
+  <script src="js/script.js"></script>
+</body>
+</html>
